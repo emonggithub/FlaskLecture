@@ -43,10 +43,10 @@ def calculate():
         else:
             result="fail"
 
-        return redirect(url_for(result,score=average_marks))
+        #return redirect(url_for(result,score=average_marks))
 
 
-        #return render_template('result.html',results=average_marks)
+        return render_template('result.html',results=average_marks)
     
 
 
